@@ -1,36 +1,46 @@
-# MITA - MANTRA INTERNATIONAL TRAVEL AGENCIES
+# 🌍 MITA Travel Website
 
-The frontend website was developed for Assignment 1 of the MANTRA Summer School program. 
+A responsive travel website developed using HTML, CSS, and JavaScript as part of my MITA project.
 
-## Website Type 
+## ✨ Features
+- Responsive design
+- Home page
+- Places page
+- Packages page
+- Travel Guide
+- Gallery
+- Booking page
+- FAQ page
+- Contact page
+- Our Story page
 
-Travel website
-
-## Technologies used 
-
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
-- Java Script
-- Github
-- Netlify
+- JavaScript
 
-## Pages included
+## 📁 Project Structure
+- index.html
+- places.html
+- packages.html
+- travelguide.html
+- gallery.html
+- booking.html
+- contact.html
+- faq.html
+- ourstory.html
+- style.css
+- script.js
+- Images/
 
-- Home
-- Our Story 
-- Places to explore
-- Tour Packages
-- Travel Gallery
-- Book Your Trip
-- Contact Us 
+## 🚀 How to Run
+1. Download or clone the repository.
+2. Open `index.html` in any web browser.
 
-## Featuers
+## 👨‍💻 Developed By
+**Naga Mahesh**
 
-
-
-
-
-
+Sai University
 
 © 2026 MANTRA Travels. Designed for MANTRA 2026 Summer School.
 
