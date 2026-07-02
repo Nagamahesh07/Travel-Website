@@ -780,3 +780,209 @@ footer>p{
 #closeLightbox:hover{
     color:#FFD700;
 }
+@media (max-width: 992px) {
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .home1,
+    .about,
+    .places1,
+    .packages,
+    .contact,
+    .faq-header,
+    .guide-header,
+    .booking-header,
+    .gallery-header{
+        height: auto;
+        padding: 80px 20px;
+    }
+
+    .about-features,
+    .home2,
+    .something,
+    .location,
+    .faq-contact,
+    .final-tip{
+        width: 90%;
+    }
+
+    .about2,
+    .faq-container,
+    .guide-container{
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .places,
+    .packages1,
+    .cus,
+    .gallery{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        padding: 25px;
+    }
+
+    .booking-box{
+        width: 95%;
+    }
+
+    .modal-content{
+        width: 90%;
+        margin: 15% auto;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .guide-header p,
+    .gallery-header p{
+        width: 90%;
+    }
+
+    .location iframe{
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 32px;
+    }
+
+    h2{
+        font-size: 28px !important;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 16px !important;
+    }
+
+    nav{
+        padding: 15px;
+    }
+
+    nav ul{
+        gap: 10px;
+    }
+
+    .button-c{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button1,
+    .button-h2,
+    .booking-btn,
+    .contact-btn,
+    .map-btn{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img{
+        height: 220px;
+    }
+
+    .footer{
+        padding: 20px;
+    }
+
+    .footer img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .map-card iframe{
+        height: 250px;
+    }
+
+    .lightbox img{
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    nav ul{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .home1 h1,
+    .about h1,
+    .places1 h1,
+    .packages h1,
+    .contact h1,
+    .faq-header h1,
+    .guide-header h1,
+    .booking-header h1,
+    .gallery-header h1{
+        font-size: 28px;
+    }
+
+    .home1 p,
+    .about p,
+    .places1 p,
+    .packages p,
+    .contact p,
+    .faq-header p,
+    .guide-header p,
+    .booking-header p,
+    .gallery-header p{
+        font-size: 15px !important;
+    }
+
+    .card,
+    .place-card,
+    .pac,
+    .cus-card,
+    .faq-card,
+    .guide-card{
+        padding: 20px;
+    }
+
+    .footer img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .booking-box{
+        padding: 20px;
+    }
+
+    .modal-content{
+        width: 95%;
+        padding: 20px;
+    }
+
+}
