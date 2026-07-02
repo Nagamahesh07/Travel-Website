@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Book Your Dream Trip | MITA</title>
+
+<meta name="description" content="Book your dream vacation with MITA. Fill out our secure booking form and let us plan your perfect journey.">
+
+<meta name="keywords" content="Book Tour, Travel Booking, Vacation Booking, Holiday Booking, MITA Booking">
+
+<meta name="author" content="Naga Mahesh">
+</head>
+<>
+    <header>
+        <nav>
+         <div>
+            <h1>MITA-MANTRA International Travel agency</h1>
+          </div>
+          <ul>
+          <div>
+            <a href="index.html">Home</a>
+          </div>
+          <div>
+            <a href="ourstory.html">About</a>
+          </div>
+          <div>
+            <a href="places.html">Places</a>
+          </div>
+          <div>
+            <a href="packages.html">Packages</a>
+          </div>
+          <div>
+            <a href="booking.html">Book Here</a>
+          </div>
+          <div>
+            <a href="gallery.html">Gallery</a>
+          </div>
+          <div>
+            <a href="contact.html">Contact us</a>
+          </div>
+          <div>
+            <a href="faq.html">FAQ</a>
+          </div>
+        <div>
+            <a href="travelguide.html">Guide</a>
+           </div>
+           </ul>
+        </nav>
+         </header>
+     <main>
+           <section class="booking-header">
+    <div>
+        <h1>Book Your Dream Trip</h1>
+        <p>Fill in your details below and let MITA help you plan an unforgettable journey.</p>
+    </div>
+</section>
+
+<section class="booking-section">
+    <div class="booking-box">
+
+        <h2>Fill Here</h2>
+
+        <form id="bookingForm">
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter your 10 digit phone number" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="destination">Destination</label>
+            <select id="destination" required>
+                <option value="">Select destination</option>
+                <option value="maldives">Maldives</option>
+                <option value="paris">Paris</option>
+                <option value="switzerland">Switzerland</option>
+                <option value="thailand">Thailand</option>
+                <option value="tokyo">Tokyo, Japan</option>
+                <option value="7 wonders">7 Wonders</option>
+                <option value="dubai">Dubai</option>
+                <option value="goa">Goa</option>
+                <option value="kashmir">Kashmir</option>
+                <option value="kerala">Kerala</option>
+                <option value="bali">Bali</option>
+            </select>
+
+            <label for="Nooftravelers">Number of Travelers</label>
+            <select id="Nooftravelers">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6-10</option>
+                <option>10+</option>
+            </select>
+
+            <label for="departure">Departure Date</label>
+            <input type="date" id="departure" required>
+
+            <label for="return">Return Date</label>
+            <input type="date" id="return">
+
+            <label for="request">Special Requests</label>
+            <textarea id="request" maxlength="150" placeholder="Up to 150 characters (Optional)"></textarea>
+
+            <div class="checkbox">
+                <input type="checkbox" id="agree" required>
+                <label for="agree">I agree to the Terms & Conditions</label>
+            </div>
+
+            <button type="submit" class="booking-btn">Book Now</button>
+
+        </form>
+
+        <p id="message"></p>
+        <div id="bookingModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <h2>🎉 Booking Confirmed!</h2>
+
+        <div id="bookingDetails"></div>
+
+        <button id="closeBtn">Close</button>
+
+    </div>
+
+</div>
+    </div>
+</section>
+     </main>
+      <footer>
+        <div class="footer">
+          <div>
+            <img src="Images/mita logo.jpeg" alt="Logo" width="224.85" height="170">
+          </div>
+            <div>
+                <h3>✈️ MITA</h3>
+                <h4>MANTRA International Travel agency</h4>
+                <p>Turning your travel dreams into unforgettable memories. Explore the world with comfort, confidence, and care.</p>
+                <p>📞 +91 98765 43210 <br>
+                 📧 hello@mitatravels.com</p>
+            </div>
+            <div>
+                <h3>🌍 Top Destinations</h3>
+                <p>> Switzerland <br>
+                   > Paris, France <br>
+                   > Maldives   <br>
+                   > Dubai, UAE <br>
+                   > Thailand  <br>
+                   > Tokyo, Japan <br>
+                   </p>
+                   <a href="places.html">View All Destinations→</a>
+            </div>
+            <div>
+                <h3>🔗 Quick Links</h3>
+                <p>
+                    <a href="index.html">>Home</a> <br>
+                    <a href="booking.html">>Book</a> <br>
+                    <a href="faq.html">>FAQ</a> <br>
+                    <a href="travelguide.html">>Guide</a> <br>
+                    <a href="packages.html">>Packages</a> <br>
+                    <a href="places.html">>Destinations</a> <br>
+                    <a href="contact.html">>Contact</a> <br>
+                </p>
+            </div>
+        </div>
+        <p>© 2026 MITA (MANTRA International Travel Agencies). All Rights Reserved. | Designed & Developed with ❤️ by Naga Mahesh for MANTRA Summer School Internship.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
